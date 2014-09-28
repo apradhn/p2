@@ -18,12 +18,12 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
 				<div class="password"><?php echo $password; ?></div>
 			</div>
 		</div>			
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
 					<form class="form-inline" role="form" method='GET' action='index.php'>
 						<div class="form-group">
 							<label for="number_of_words" class="col-sm-6 control-label"># of Words (Max 9)</label>
