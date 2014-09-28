@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="container col-sm-8 col-sm-offset-2">
+	<div class="container col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 	
 		<div class="row">
 			<h1 class="title">Project 2</h1>
@@ -19,8 +19,7 @@
 			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
 				<div class="password">random password</div>
 			</div>
-		</div>	
-		
+		</div>			
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
 					<form class="form-inline" role="form">
@@ -30,6 +29,7 @@
 								<input class="form-control" maxlength="1" type="text" name="number_of_words" id="number_of_words" value="5"> 
 							</div>
 						</div>
+						<br>
 						<div class="form-group">
 							<div class="col-sm-12">
 								<div class="checkbox">
@@ -58,6 +58,14 @@
 					</form>
 			</div>
 		</div>
+		
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<p>According to the xkcd comic strip <a href="http://xkcd.com/936/" target="_blank">Password Strength</a>, we've trained ourselves to use passwords that are hard for humans to remember but easy for computers to guess. </p>				
+				<p>Instead, a string of random common words is a much a better password because it's difficult for computers to guess and easy for humans to remember. A string of 4 common random words is a stronger password because it contains greater "bits of entropy", whatever that means. </p>
+				<p>This application generates an xkcd password by generating a number of random words separated by hyphens. The user can select how many words to use, whether to include a number, and whether to include a special symbol.</p>
+			</div>
+		</div>		
 
 	</div>
 </body>

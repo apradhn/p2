@@ -1,6 +1,6 @@
 body {
 	font-family: 'Hind', Arial, sans-serif;
-	background-color: #4DAF7C;
+	background-color: #68C3A3;
 }
 
 .container {
@@ -27,6 +27,15 @@ p {
 	color: #6C7A89;
 }
 
+a {
+	color: #CD5C5C;
+	text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+	color: #963939;
+}
+
 .password {
 	font-family: monospace;
 	background-color: #DADFE1;
@@ -40,8 +49,8 @@ p {
 }
 
 form {
-	border: 2px solid #1E824C;
-	margin: 40px 20px 60px 20px;
+	border: 2px solid #68C3A3;
+	margin: 40px 20px 40px 20px;
 	padding: 10px;
 	border-radius: 5px;
 	text-align: center;
