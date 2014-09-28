@@ -6,7 +6,8 @@
 
 ----
 ## Description
-
+This application generates an xkcd style password
+* Source: [http://xkcd.com/936/](http://xkcd.com/936/)
 
 ----
 ## Demo
