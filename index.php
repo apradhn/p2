@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Project 2</title>
 	<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="images/favicon-green.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<?php require 'logic.php'; ?>
