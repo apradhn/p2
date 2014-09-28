@@ -6,6 +6,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php require 'logic.php'; ?>
 </head>
 <body>
 	<div class="container col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
@@ -17,12 +18,12 @@
 		
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-				<div class="password">random password</div>
+				<div class="password"><?php echo $password; ?></div>
 			</div>
 		</div>			
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-					<form class="form-inline" role="form">
+					<form class="form-inline" role="form" method='GET' action='index.php'>
 						<div class="form-group">
 							<label for="number_of_words" class="col-sm-6 control-label"># of Words (Max 9)</label>
 							<div class="col-sm-6">
@@ -32,7 +33,7 @@
 						<br>
 						<div class="form-group">
 							<div class="col-sm-12">
-								<div class="checkbox">
+								<div class="checkbox">	
 									<label for="add_number">
 										<input type="checkbox" name="add_number" id="add_number">Add a number
 									</label>
@@ -52,7 +53,7 @@
 						<br>
 						<div class="form-group">
 							<div class="col-sm-12">
-								<input type="submit" class="btn btn-primary" value="Again">
+								<input type="submit" class="btn btn-primary" value="Go">
 							</div>
 						</div>
 					</form>
