@@ -23,12 +23,12 @@
 			</div>
 		</div>			
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
 					<form class="form-inline" role="form" method='GET' action='index.php'>
 						<div class="form-group">
 							<label for="number_of_words" class="col-sm-6 control-label"># of Words (Max 9)</label>
-							<div class="col-sm-6">
-								<input class="form-control" maxlength="1" type="text" name="number_of_words" id="number_of_words" value="5"> 
+							<div class="col-sm-6 col-xs-12">
+								<input class="form-control col-xs-4 col-xs-offset-4" maxlength="1" type="text" name="number_of_words" id="number_of_words" value="5"> 
 							</div>
 						</div>
 						<br>
