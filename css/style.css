@@ -75,6 +75,7 @@ form {
 
 #number_of_words {
 	width: 40px;
+	display: inline;
 }
 
 #add_number {
@@ -84,3 +85,5 @@ form {
 #add_symbol {
 	margin-right: 10px;
 }
+
+

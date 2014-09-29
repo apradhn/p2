@@ -23,37 +23,31 @@
 			</div>
 		</div>			
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
-					<form class="form-inline" role="form" method='GET' action='index.php'>
-						<div class="form-group">
-							<label for="number_of_words" class="col-sm-6 control-label"># of Words (Max 9)</label>
-							<div class="col-sm-6 col-xs-12">
-								<input class="form-control col-xs-4 col-xs-offset-4" maxlength="1" type="text" name="number_of_words" id="number_of_words" value="5"> 
-							</div>
+			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+					<form role="form" method='GET' action='index.php'>
+						<div class="row">
+							<label for="number_of_words" class="control-label col-xs-4 col-xs-offset-2"># of Words (Max 9)</label>
+							<input class="form-control col-xs-4" maxlength="1" type="text" name="number_of_words" id="number_of_words" value="5"> 
 						</div>
-						<br>
-						<div class="form-group">
-							<div class="col-sm-12">
-								<div class="checkbox">	
-									<label for="add_number">
-										<input type="checkbox" name="add_number" id="add_number">Add a number
-									</label>
+						<div class="row">
+							<div class="col-xs-6 col-xs-offset-3">
+								<div class="checkbox">										
+										<input type="checkbox" name="add_number" id="add_number">
+										<label for="add_number">Add a number</label>
 								</div>
 							</div>
 						</div>
 						<br>
-						<div class="form-group">
-							<div class="col-sm-12">
-								<div class="checkbox">
-									<label for="add_symbol">
-									<input class="checkbox" type="checkbox" name="add_symbol" id="add_symbol">Add a symbol
-									</label>
+						<div class="row">
+							<div class="col-xs-6 col-xs-offset-3">
+								<div class="checkbox">									
+									<input type="checkbox" name="add_symbol" id="add_symbol">
+									<label for="add_symbol">Add a symbol</label>
 								</div>
 							</div>
 						</div>
-						<br>
-						<div class="form-group">
-							<div class="col-sm-12">
+						<div class="row">
+							<div class="col-xs-12">
 								<input type="submit" class="btn btn-primary" value="Go">
 							</div>
 						</div>
@@ -62,7 +56,7 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 				<p>According to the xkcd comic strip <a href="http://xkcd.com/936/" target="_blank">Password Strength</a>, we've trained ourselves to use passwords that are hard for humans to remember but easy for computers to guess. </p>				
 				<p>Instead, a string of random common words is a much a better password because it's difficult for computers to guess and easy for humans to remember. A string of 4 common random words is a stronger password because it contains greater "bits of entropy", whatever that means. </p>
 				<p>This application generates an xkcd password by generating a number of random words separated by hyphens. The user can select how many words to use, whether to include a number, and whether to include a special symbol.</p>
