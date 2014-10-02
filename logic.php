@@ -20,12 +20,22 @@ if(isset($_GET['number_of_words'])) {
 	$number_of_words = $_GET['number_of_words'];
 } else $number_of_words = 5;
 
-// Picks a random word from $common_words and appends it to the password
-for($i = 0; $i < $number_of_words; $i++) {
-	$random = rand(0, $array_length);
-	$password = $password."-".$common_words[$random];
+// Checks for invalid user input in number_of_words
+if (!(is_numeric($number_of_words))) {
+	$password = "Please pick a number between 1-10";
+}  
+else if ($number_of_words == 0) {
+	$password = "Password must have at least 1 word";
+} else if ($number_of_words > 9) {
+	$password = "Password must have less than 10 words";
+} else {
+	// Picks a random word from $common_words and appends it to the password
+	for($i = 0; $i < $number_of_words; $i++) {
+		$random = rand(0, $array_length);
+		$password = $password."-".$common_words[$random];
+	}
+	$password = substr($password, 1);
 }
-$password = substr($password, 1);
 
 // Adds a random number to the password if option is selected
 $number = rand(0, 9);

@@ -9,14 +9,16 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<?php require 'logic.php'; ?>
 </head>
-<body>
+<body OnLoad="document.pwgen.number_of_words.focus();">
 	<div class="container col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 	
 		<div class="row">
-			<h1 class="title">Project 2</h1>
+			<div class="col-sm-1 col-sm-offset-1 back"><a href="http://p1.apradhan.me"><span class="glyphicon glyphicon-chevron-left"></span> p1</a></div>
+			<div class="col-sm-8"><h1 class="title"><a href="/p2">Project 2</a></h1></div>
+		</div>
+		<div class="row">
 			<h2 class="subtitle">xkcd Password Generator</h2>
 		</div>
-		
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
 				<div class="password"><?php echo $password; ?></div>
@@ -24,10 +26,10 @@
 		</div>			
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-					<form role="form" method='GET' action='index.php'>
+					<form role="form" method='GET' action='index.php' name='pwgen'>
 						<div class="row">
 							<label for="number_of_words" class="control-label col-xs-4 col-xs-offset-2"># of Words (Max 9)</label>
-							<input class="form-control col-xs-4" maxlength="1" type="text" name="number_of_words" id="number_of_words" value="5"> 
+							<input class="form-control col-xs-4" type="text" name="number_of_words" id="number_of_words" value="5"> 
 						</div>
 						<div class="row">
 							<div class="col-xs-6 col-xs-offset-3">
