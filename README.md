@@ -19,4 +19,5 @@ N/A
 
 ----
 ## Outside Code
-* Bootstrap v3.2.0: [http://getbootstrap.com/](http://getbootstrap.com/)
+* Bootstrap 3.2.0: [http://getbootstrap.com/](http://getbootstrap.com/)
+* Font Awesome: [http://fortawesome.github.io/Font-Awesome/] (http://fortawesome.github.io/Font-Awesome/)

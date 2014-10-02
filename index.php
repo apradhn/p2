@@ -6,6 +6,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="images/favicon-green.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<?php require 'logic.php'; ?>
 </head>
@@ -13,7 +14,7 @@
 	<div class="container col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 	
 		<div class="row">
-			<div class="col-sm-1 col-sm-offset-1 col-xs-2 col-xs-offset-1 back"><a href="http://p1.apradhan.me"><span class="glyphicon glyphicon-chevron-left"></span> p1</a></div>
+			<div class="col-sm-1 col-sm-offset-1 col-xs-2 col-xs-offset-1 back"><a href="http://p1.apradhan.me"><i class="fa fa-angle-double-left"></i> p1</a></div>
 			<div class="col-sm-8 col-xs-12"><h1 class="title"><a href="index.php">Project 2</a></h1></div>
 		</div>
 		<div class="row">
