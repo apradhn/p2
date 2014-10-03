@@ -11,7 +11,7 @@ This application generates an xkcd style password
 
 ----
 ## Demo
-N/A
+* Jing Screencas: [http://screencast.com/t/w3PCapwh3X7V] (http://screencast.com/t/w3PCapwh3X7V)
 
 ----
 ## Details for teaching team
