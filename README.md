@@ -15,7 +15,7 @@ This application generates an xkcd style password
 
 ----
 ## Details for teaching team
-N/A
+* Not sure if this is relevant, but I used my Macbook to make commits on Oct 2. I usually work from the PC in my room but for some reason the power went out in my room and my room only (I know, weird). So I set up a MAMP server on my Macbook and finished the project in another room.
 
 ----
 ## Outside Code
